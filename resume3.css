@@ -1,0 +1,116 @@
+/* 전체 */
+
+.whole {
+    display: flex;
+    margin: auto;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 600;
+    background-color: #926dd6;
+}
+
+
+
+/* 사이드 */
+
+.aside {
+    background-color: #926dd6;
+    color: oldlace;
+}
+
+.aside>div {
+    margin-bottom: 30px;
+}
+
+.photo {
+    width: 65%;
+    height: auto;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.profile {
+    display: flex;
+}
+
+.icon {
+    width: 15%;
+}
+
+.title_aside {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.details {
+    width: 95%;
+}
+
+.languages {
+    position: relative;
+}
+
+.half {
+    width: 50%;
+    text-align: right;
+    position: absolute;
+    right: right;
+}
+
+
+/* 메인 */
+
+.main {
+    background-color: #f2f1f7;
+    padding: 30px;
+}
+
+main>div {
+    margin-bottom: 50px;
+}
+
+.Kim {
+    font-size: 4em;
+    font-weight: 800;
+}
+
+/* 경력 */
+
+.experience,
+.education {
+    display: flex;
+}
+
+.left-30 {
+    margin-left: 5px;
+    width: 30%;
+    font-weight: 600;
+}
+
+.right-70 {
+    width: 70%;
+    margin-right: 5px;
+}
+
+.title2 {
+    font-weight: 600;
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+.blue {
+    color: purple;
+}
+
+.skills {
+    position: relative;
+}
+
+.half_main {
+    width: 50%;
+    position: absolute;
+    right: 20%;
+}
